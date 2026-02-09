@@ -21,6 +21,12 @@ pwd # Verify
 
 ![System Baseline](photos/directory-navigation.png)
 
+## User Management
+
+sudo useradd -m -G sudo demo-user # Create + home + sudo
+sudo passwd demo-user # demo123
+id "demo-user" # UID=1001, groups=sudo
+
 ![System Baseline](photos/users.png)
 
 
