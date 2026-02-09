@@ -31,7 +31,9 @@ pwd # Verify
 ## User Management
 
 sudo useradd -m -G sudo demo-user # Create + home + sudo
+
 sudo passwd demo-user # demo123
+
 id "demo-user" # UID=1001, groups=sudo
 
 ![System Baseline](photos/users.png)
@@ -40,8 +42,11 @@ id "demo-user" # UID=1001, groups=sudo
 ## Find & Filtering
 
 cd ~/linux-essentials
+
 find . -name "*.txt" # Pattern matching
+
 ls *.txt # Shell wildcard
+
 find . -type f -size +0 -size -10k # Files 0-10kB → Empty (0-byte files)
 
 ![System Baseline](photos/find+wildcards.png)
@@ -58,7 +63,13 @@ find . -type f -size +0 -size -10k # Files 0-10kB → Empty (0-byte files)
 | `touch` | Create files | 1.1.4 |
 | `find` | Locate/filter | 1.2.1 |
 
-**Restore:** `baseline-state` snapshot available.
+## System Restore Points
+
+**Purpose:** Quick VM reset to known-good state between labs.
+
+**Available Snapshots:**
+
+
 ![System Baseline](photos/restore-point-created.png)
 
 ![System Baseline](photos/restore-point-collection.png)
