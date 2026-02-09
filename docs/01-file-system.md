@@ -19,12 +19,20 @@ ls -lh # Human-readable sizes
 cd ~ # Home directory
 pwd # Verify
 
+![System Baseline](photos/directory-navigation.png)
+
+![System Baseline](photos/users.png)
+
+
 ## Find & Filtering
 
 cd ~/linux-essentials
 find . -name "*.txt" # Pattern matching
 ls *.txt # Shell wildcard
 find . -type f -size +0 -size -10k # Files 0-10kB → Empty (0-byte files)
+
+![System Baseline](photos/find+wildcards.png)
+
 
 **Teaching point:** `find` vs shell glob. Size filters work on actual bytes.
 
@@ -38,3 +46,7 @@ find . -type f -size +0 -size -10k # Files 0-10kB → Empty (0-byte files)
 | `find` | Locate/filter | 1.2.1 |
 
 **Restore:** `baseline-state` snapshot available.
+![System Baseline](photos/restore-point-created.png)
+
+![System Baseline](photos/restore-point-collection.png)
+
