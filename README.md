@@ -1,1 +1,8 @@
-# azure-ubuntu-linux-essentials
+1. File system navigation (ls, cd, pwd, find)
+2. Users/groups (useradd, passwd, id, sudoers)
+3. Package mgmt (apt search/install/remove)
+4. Processes (ps, top, kill)
+5. Permissions (chmod, chown, umask)
+6. Text processing (cat, grep, less)
+7. Pipes/redirection (> >> |)
+8. Basic scripting (.sh file)
