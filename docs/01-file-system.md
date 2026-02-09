@@ -1,4 +1,4 @@
-# 01: Linux File System Navigation (LPI 010-160 Topic 1)
+# 01: Linux File System Navigation
 
 ## Baseline
 Fresh Ubuntu 24.04 LTS deployment.
