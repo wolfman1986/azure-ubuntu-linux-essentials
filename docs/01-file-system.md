@@ -2,7 +2,9 @@
 
 ## Baseline
 Fresh Ubuntu 24.04 LTS deployment.
+
 ![System Baseline](photos/system-baseline.png)
+
 ![System Baseline](photos/baseline-state-set.png)
 
 
