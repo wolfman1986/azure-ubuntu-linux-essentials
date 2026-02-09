@@ -3,7 +3,8 @@
 ## Baseline
 Fresh Ubuntu 24.04 LTS deployment.
 
-![System Baseline](photos/01-system-baseline.png)
+![System Baseline](photos/baseline-state-set.png)
+
 
 ## Core Navigation
 
