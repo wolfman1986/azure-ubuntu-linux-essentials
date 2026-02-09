@@ -11,12 +11,19 @@ Fresh Ubuntu 24.04 LTS deployment.
 ## Core Navigation
 
 pwd # Print working directory
+
 ls -la # Long listing (permissions, owner)
+
 mkdir ~/linux-essentials # Create directory
+
 cd ~/linux-essentials # Change directory
+
 touch file{1..5}.txt # Create 5 files (brace expansion)
+
 ls -lh # Human-readable sizes
+
 cd ~ # Home directory
+
 pwd # Verify
 
 ![System Baseline](photos/directory-navigation.png)
